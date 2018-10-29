@@ -12,6 +12,7 @@ export default class Header extends Component {
                             <h2 className="subtitle is-size-7 has-text-white heading site-subtitle">your personal travel buddy</h2>
                             <ul className="is-size-7 heading footer-links has-text-white">
                                 <li><Link className="has-text-white site-footer" to="/">Home</Link></li>
+                                <li><Link className="has-text-white site-footer" to="/explore">Explore</Link></li>
                                 <li><Link className="has-text-white site-footer" to="/about">About</Link></li>
                                 <li><Link className="has-text-white site-footer" to="/contact">Contact</Link></li>
                             </ul>
